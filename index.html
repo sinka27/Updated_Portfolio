@@ -4,11 +4,161 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" type="text/css" href="./Assets/style.css" />
+    <!-- Google font linked-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <!--FAVICON -->
+     <link rel="icon" type="image/x-icon" href="./Assets/images/favicon.png" />
+     <!-- TITLE -->
+     <title>Portfolio</title>
+    
 </head>
 <body>
-    
+     <!-- Header & Navigation -->
+     <!-- Header & Navigation -->
+    <!-- <header>
+        <nav>
+          <div class="nav-left">Parul Raj</div>
+          <div class="nav-right">
+            <ul>
+              <li><a href="#aboutme">About Me</a></li>
+              <li><a href="#work">Work</a></li>
+              <li>
+                <a href="https://www.linkedin.com/in/parul-raj-36b92865/"
+                  >Resume</a
+                >
+              </li>
+              <li><a href="#contactme">Contact Me</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header> -->
+      <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <script src = "Assets/script.js"></script>
+     <!-- Masthead-->
+     <div class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5" src="./Assets/images/avataaars.png" alt="avataaars" />
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0">Welcome to my Portfolio</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">Full Stack Developer</p>
+        </div>
+    </div>
+       
+        <!-- <div class="bottom-right">Welcome to my Portfolio!</div> -->
+      
+      <!-- main part of the webpage -->
+      
+      <main>
+        <section id="aboutme" class="card">
+          <!-- About Me Section -->
+          <div class="sideColumnRightBorder">About Me</div>
+          <div class="mainColumnNoBorder">
+            Hey, I am Parul Raj! <br />
+            I am an Electronics Engineer with my major in VLSI Design, currently
+            making a career transit to become a Full Stack Developer. I enjoy
+            working in motivating environment where I can assist others while
+            challenging and understanding the work at hand. I love solving puzzles
+            and playing sudoku. I am a certified YTTC-200hrs Yoga Instructor and a
+            dog lover!
+          </div>
+        </section>
+        <!-- Work Section -->
+        <section id="work" >
+          <div class="sideColumnNoBorder">Work</div>
+          <div class="mainColumnLeftBorder">
+            <!-- Projects -->
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./Assets/images/MovieMadness.png" alt="MovieMadness">
+                <div class="card-body">
+                  <h5 class="card-title">MovieMadness</h5>
+                  <p class="card-text"MovieMadness, is a one-stop shop to find information about your favorite flicks. You can search for your favorite title directly or browse suggestions based of a genre of your choosing. If you’re not sure what you’re looking for, use our randomizer to suggest a title from our staff’s favorite films!</p>
+                    <a href="https://github.com/BUButtercup/MovieMadness/tree/main" target = "_blank" class="btn btn-primary">Github</a>
+                    <a href="https://bubuttercup.github.io/MovieMadness/" target = "_blank" class="btn btn-primary">Deployed Page</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./Assets/images/CodeQuiz.png" alt="Quiz">
+                <div class="card-body">
+                  <h5 class="card-title">Code Quiz</h5>
+                  <p class="card-text"Code Quiz is a quiz application built using HTML, CSS, and Javascript.
+                  This application emphasizes the use of Javascript to provide quiz questions with multiple choice answers.</p>
+                  <a href=" https://github.com/sinka27/Code_Quiz" target = "_blank" class="btn btn-primary">Github</a>
+                  <a href=" https://sinka27.github.io/Code_Quiz/" target = "_blank" class="btn btn-primary">Deployed Page</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./Assets/images/Day_Planner.png" alt="Day_Planner">
+                <div class="card-body">
+                  <h5 class="card-title">Work Day Scheduler</h5>
+                  <p class="card-text"Work Day Scheduler is a simple calendar application that allows a user to save events for each hour of the day.</p>
+                    <a href="https://github.com/sinka27/Day_Planner" target = "_blank" class="btn btn-primary">Github</a>
+                    <a href="https://sinka27.github.io/Day_Planner/" target = "_blank" class="btn btn-primary">Deployed Page</a>
+                  
+                </div>
+              </div>
+              
+            </div>  
+          </div>
+        </section>
+        <!-- Contact Me Section -->
+        <section id="contactme" class="card">
+          <div class="sideColumnRightBorder">Contact Me</div>
+          <div class="mainColumnNoBorder">
+            <ul>
+              <li><a href="tel:2066027731">Phone</a></li>
+              <li><a href="mailto: sinka27392@gmail.com">Email</a></li>
+              <li><a href="https://github.com/sinka27">GitHub</a></li>
+              <li>
+                <a href="https://www.linkedin.com/in/parul-raj-36b92865/"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+    
+    
+    <script src = "./Assets/script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>
