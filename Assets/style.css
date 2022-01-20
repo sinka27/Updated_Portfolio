@@ -1,3 +1,14 @@
+/*!
+* Start Bootstrap - Freelancer v7.0.5 (https://startbootstrap.com/theme/freelancer)
+* Copyright 2013-2021 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
+*/
+/*!
+ * Bootstrap v5.1.3 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
 :root{
     --bs-primary-rgb: 26, 188, 156;
     
@@ -36,14 +47,17 @@
   
   /* CSS Property of Left side of Navigation bar */
   .nav-left {
-    /* background: #9ecacd; */
     float: left;
     text-align: left;
     color: #13293d;
     font-size: 50px;
     padding-left: 50px;
   }
-  
+  .nav-left:hover {
+    --bs-bg-opacity: 1;
+    color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  }
+
   /* CSS Property of Right side of Navigation bar */
   #navbarResponsive {
     float: right;
@@ -60,8 +74,6 @@
     text-align: right;
   }
 
-   
-  
   .nav-link:hover {
     --bs-bg-opacity: 1;
     color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
@@ -90,7 +102,7 @@
   
   @media (min-width: 992px) {
     .masthead {
-      padding-top: calc(6rem + 104px);
+      padding-top: calc(10rem + 104px);
       padding-bottom: 6rem;
     }
     .masthead .masthead-heading {
@@ -133,10 +145,10 @@
     color: #fff;
   }
   .divider-custom.divider-dark .divider-custom-line {
-    background-color: #000;
+    background-color: #13293d;
   }
   .divider-custom.divider-dark .divider-custom-icon {
-    color: #000;
+    color: #13293d;
   }
   /* Bottom right text on the image in the figure tag */
   .bottom-right {
@@ -176,7 +188,16 @@
      font-size: 30px;
  }
   
- 
+ .btn{
+     display: inline;
+ }
+ .btn-primary{
+     background-color: rgb(53, 68, 67);
+     border-color: rgb(53, 68, 67);
+ }
+ .btn-primary:hover{
+    background-color: rgb(64, 99, 92);
+ }
   .contactmeList ul {
     list-style: none;
     font-size: 30px;
