@@ -34,7 +34,7 @@ Advantages of Portfolio:
 * Github deployed page: https://sinka27.github.io/Updated_Portfolio/
 
 ## Screenshot
-![](./Assets/images/Portfolio.png)
+![](./Assets/images/portfolio.png)
 
 ## Credits
 Parul Raj
